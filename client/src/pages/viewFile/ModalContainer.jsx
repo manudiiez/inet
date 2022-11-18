@@ -73,9 +73,9 @@ const ModalContainer = ({ open, handleClose, handleOpen, id }) => {
                             <Typography id="keep-mounted-modal-description" sx={{ mt: 4 }}>
                                 Observaciones: {data.observations}
                             </Typography>
-                            <Box sx={{ mt: 4 }}>
+                            {/* <Box sx={{ mt: 4 }}>
                                 <Button variant="outlined" onClick={handleSubmit}>Descargar</Button>
-                            </Box>
+                            </Box> */}
                         </Box>
                     )
                 }
