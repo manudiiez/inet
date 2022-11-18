@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+}
+
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container__body{
+  margin-top: 10px;
+}
